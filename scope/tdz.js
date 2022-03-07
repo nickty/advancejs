@@ -1,3 +1,5 @@
+var mizan = 50;
+
 function fn1() {
   console.log("Scope 1");
 
@@ -9,7 +11,6 @@ function fn1() {
     console.log("Scope 2");
     let scope = "different scope";
     console.log(scope);
-    var mizan = 50;
   }
   {
     console.log("Scope 3");
@@ -21,3 +22,9 @@ function fn1() {
 }
 
 fn1();
+
+function fn2() {
+  console.log(mizan);
+}
+
+fn2();
