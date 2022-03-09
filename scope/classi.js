@@ -14,3 +14,5 @@ class Car {
 let subaru = new Car("Subaru", "Outback", 2005, "Gery");
 
 subaru.setColor("Red");
+
+console.log(subaru);
